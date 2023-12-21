@@ -24,31 +24,23 @@ return(
 
     <ul className="menu">
         <div className="toggle"><ion-icon className="add-outline"><h1>Menu</h1></ion-icon></div>
-        <li style={{"--i": 0,"--clr" : "#ff2972"}}>
+        <li style={{"--i": 0, "--clr":" #fe00f1"}}>
             <Link to="#">
-                <ion-icon name="beer-outline"><h1>Menu</h1></ion-icon>
+                <ion-icon  name="beer-outline"><h2>The Watcher</h2></ion-icon>
             </Link>
         </li>
-        <li style={{"--i": 1,"--clr" :" #fee800"}}>
+        <li style={{"--i": 1.5, "--clr":" #fe00f1"}}>
             <Link to="#">
-                <ion-icon name="home-outline"><h1>Menu</h1></ion-icon>
+                <ion-icon name="home-outline"><h2>Argent Bank</h2></ion-icon>
             </Link>
         </li>
-        <li style={{"--i": 2," --clr":" #04fc4;"}}>
-            <Link to="#">
-                <ion-icon name="person-outline"></ion-icon>
+        
+        <li style={{"--i": -1.5, "--clr":" #fe00f1"}}>
+            <Link className="pink" to="/Projet">
+                <ion-icon  name="settings-outline"><h2 className="mirror " >77Events</h2></ion-icon>
             </Link>
         </li>
-        <li style={{"--i": 3, "--clr":" #fe00f1"}}>
-            <Link to="#">
-                <ion-icon name="settings-outline"><h1>Menu</h1></ion-icon>
-            </Link>
-        </li>
-        <li style={{"--i": 4," --clr":" #00b0fe"}}>
-            <Link to="#">
-                <ion-icon name="mail-outline"></ion-icon>
-            </Link>
-        </li>
+        
      
     </ul>
       <p>loremisp
