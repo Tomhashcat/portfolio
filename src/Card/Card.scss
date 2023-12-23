@@ -2,21 +2,16 @@
     box-sizing: border-box;
   }
   
-  body {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-  }
+ 
   
   .card {
-    --blur: 16px;
-    --size: clamp(300px, 50vmin, 600px);
-    width: 350px;
-    height: 500px;
-    aspect-ratio: 4 / 3;
-    position: relative;
-    border-radius: 15px;
-    overflow: hidden;
+ display: flex;
+   width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 25px;
+
     color: #000;
     transform: translateZ(0);
   }
@@ -24,7 +19,9 @@
   .card__img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    max-width: 100%; 
+    
+    border-radius: 25px;
     transform: scale(calc(1 + (var(--hover, 0) * 0.25))) rotate(calc(var(--hover, 0) * -5deg));
     transition: transform 0.2s;
   }
