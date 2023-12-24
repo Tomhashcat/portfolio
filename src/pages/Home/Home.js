@@ -26,7 +26,7 @@ function Home() {
         <ul>
           <ButtonMenu to="#" title="The Watcher" />
        <ButtonMenu to="#" title="Argent Bank"  />
-          <Link to="/Projet">  <ButtonMenu title="77Events"/></Link> 
+          <Link to="/Events">  <ButtonMenu title="77Events"/></Link> 
           
         </ul>
        

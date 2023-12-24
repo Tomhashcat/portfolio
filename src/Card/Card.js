@@ -1,11 +1,11 @@
 import React from "react";
 import "./Card.scss";
-import imgSlider from "../assets/img/slider.png";
-function Card() {
+
+function Card({src, alt}) {
     return (
         <>
             <div className="card">
-                <img className="card__img" src={imgSlider}  alt="Slider" ></img>
+                <img className="card__img" src={src} alt={alt}  ></img>
                 <span className="top"></span>
                 <span className="right"></span>
                 <span className="bottom"></span>
