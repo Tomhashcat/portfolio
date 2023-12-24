@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
- 
+
   
   .card {
  display: flex;
@@ -17,10 +17,10 @@
   }
   
   .card__img {
-    width: 100%;
+    width: 100%; max-width: 100%; 
     height: 100%;
-    max-width: 100%; 
-    
+   
+    overflow: hidden;
     border-radius: 25px;
     transform: scale(calc(1 + (var(--hover, 0) * 0.25))) rotate(calc(var(--hover, 0) * -5deg));
     transition: transform 0.2s;
