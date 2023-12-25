@@ -18,8 +18,9 @@ function App() {
               <Route path="/Events" element={<ProjetPage />} />
               <Route path="/BankPage" element={<BankPage />} />
               <Route path="/*" element={<Error />} />
-               </Routes>
+               </Routes> 
           </main>
+         
         </div>
      
     </Router>
