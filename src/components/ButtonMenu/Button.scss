@@ -66,6 +66,6 @@
   
   .menu-wrapper.active li {
     opacity: 1;
-   
+  color: #333 ;
     transform: translateY(0) rotate(calc(45deg * var(--i)));
   }
