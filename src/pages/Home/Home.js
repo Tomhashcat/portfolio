@@ -25,7 +25,7 @@ function Home() {
       <div className={`menu-wrapper ${areButtonsVisible ? "active" : ""}`}>
         <ul>
           <ButtonMenu to="#" title="The Watcher" />
-       <ButtonMenu to="#" title="Argent Bank"  />
+          <Link to="/BankPage">    <ButtonMenu title="Argent Bank"  /></Link> 
           <Link to="/Events">  <ButtonMenu title="77Events"/></Link> 
           
         </ul>

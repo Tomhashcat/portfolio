@@ -2,7 +2,9 @@
     box-sizing: border-box;
   }
   
-
+h2{
+  color: white;
+}
   
   .card {
  display: flex;
@@ -11,9 +13,10 @@
    margin-left: auto;
    margin-right: auto;
     border-radius: 25px;
-
+    overflow: hidden;
     color: #000;
     transform: translateZ(0);
+    animation: neon-border 1.5s ease-in-out infinite alternate;
   }
   
   .card__img {
