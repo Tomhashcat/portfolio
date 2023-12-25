@@ -9,7 +9,7 @@ h2{
   .card {
  display: flex;
    width: 80%;
-   height: auto;
+   height:500px;
    margin-left: auto;
    margin-right: auto;
     border-radius: 25px;
@@ -24,6 +24,7 @@ h2{
     height: 100%;
    border: 5px solid purple;
     overflow: hidden;
+    object-fit:cover;
     border-radius: 25px;
     transform: scale(calc(1 + (var(--hover, 0) * 0.25))) rotate(calc(var(--hover, 0) * -5deg));
     transition: transform 0.2s;
