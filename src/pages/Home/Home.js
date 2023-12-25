@@ -27,6 +27,8 @@ function Home() {
             <ButtonMenu title="77Events" />
           </Link>
         </ul> 
+        
+        <div className="about">
         <img className={`Autor ${areButtonsVisible ? 'active' : ''}`} src={imgAutor} alt="Autor" />
         <article className="About">
        
@@ -37,6 +39,7 @@ function Home() {
           </p>
           
         </article>
+        </div>
       </div>
     </div>
   );
