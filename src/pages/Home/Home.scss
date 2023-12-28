@@ -124,9 +124,15 @@ h4{
 }
 strong{
   font-size: 24px;
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   border: #c300ff solid 1px;
+  border-radius: 15px;
   padding: 10px;
+}
+.Strong{
+  margin-top: 20px;
 }
 .projets{
 margin-bottom: 5%;

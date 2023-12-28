@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../Card/Card";
 import ButtonMenu from "../../components/ButtonMenu/ButtonMenu";
-import { Link } from "react-router-dom";
+
 import imgHome from "../../assets/img/home.png";
 import imgLogin from "../../assets/img/login.png";
 import imgUser from "../../assets/img/user.png";
@@ -10,14 +10,14 @@ import imgSwagg from "../../assets/img/swagg.png";
 function BankPage() {
   return (
     <>
-      <Link to="/*">
+      <a   id="argentBank" href="/*">
         {" "}
-        <ButtonMenu title="Argent Bank" />
-      </Link>
-      <h2>Développement du front-end d'une application banquaire :</h2>
+        <ButtonMenu  title="Argent Bank" />
+      </a>
+     <strong    className="Strong"><h3>Développement du front-end d'une application banquaire :</h3></strong> 
       <Card src={imgHome} />
       <article>
-        <h3>Optimisation des Performances et Intégration d'API</h3>
+        <strong>Optimisation des Performances et Intégration d'API</strong>
         <p>
           {" "}
           Au cours de la phase de développement, j'ai entrepris des mesures
@@ -47,10 +47,10 @@ function BankPage() {
 
       <Card src={imgLogin} />
       <article>
-        <h3>
+        <strong>
           Gestion Avancée du Formulaire de Connexion avec Fonction "Se Souvenir
           de Moi"
-        </h3>
+        </strong>
         <p>
           {" "}
           Au sein du processus de développement, une attention particulière a
@@ -86,7 +86,7 @@ function BankPage() {
       </article>
       <Card src={imgUser} />
       <article>
-        <h3>La page utilisateur :</h3>
+        <strong>La page utilisateur :</strong>
         <p>
           Au sein de l'application bancaire, j'ai mis en place une architecture
           utilisant React pour garantir une gestion efficace des comptes et une
@@ -109,7 +109,7 @@ function BankPage() {
 
       <Card src={imgSwagg} />
       <article>
-        <h3>Création de la documentation : </h3>
+        <strong>Création de la documentation : </strong>
         <p>
           Lors de ce projet j'ai développeé un document swagger dans la
           prévision de la phase deux du site. La documentation Swagger que j'ai

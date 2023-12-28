@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../../Card/Card";
 import ButtonMenu from "../../../components/ButtonMenu/ButtonMenu";
-import { Link } from "react-router-dom";
+
 
 import imgSlider from "../../../assets/img/slider.png";
 import imgForm from "../../../assets/img/form.png";
@@ -12,10 +12,10 @@ function EventsPage() {
     return (
 
         <>
-            <Link to="/*">  <ButtonMenu title="77Events" /></Link>
+            <a href="/*" id="77Events">  <ButtonMenu title="77Events" /></a>
 
             <Card src={imgSlider} />
-            <article>
+            <article  >
             <strong> Gestion du slider : </strong><br /> <br />
                 Mon rôle consistait à débugger un slider et à restaurer le bon fonctionnement de la pagination associée.
                 Grâce à une approche méthodique du débogage, j'ai identifié et corrigé les problèmes sous-jacents,

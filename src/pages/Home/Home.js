@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./Home.scss";
 import ButtonMenu from "../../components/ButtonMenu/ButtonMenu";
 import EventsPage from "../Projects/Events/events";
@@ -40,21 +40,22 @@ function Home() {
         <div className="projets">
           <h4>Projets :</h4>
           <ul>
-            <ButtonMenu to="#" title="The Watcher" />
-            <Link to="/BankPage">
+            <a href="#argentBank">
               <ButtonMenu title="Argent Bank" />
-            </Link>
-            <Link to="/Events">
+            </a>
+            <a href="#77Events">
               <ButtonMenu title="77Events" />
-            </Link>
+            </a>
           </ul>
         </div>
       </div>
+
       <SeparationBarre />
+
       <div className="portfolio">
         <BankPage />
         <SeparationBarre />
-        <EventsPage />
+        <EventsPage   />
       </div>
     </>
   );
