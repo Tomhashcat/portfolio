@@ -21,15 +21,17 @@
     justify-content: center;
     align-items: center;
     
-    width:200px;
-    height: 200px;
+    width:115px;
+    height: 115px;
     color: var(--clr);
     border: 5px solid var(--clr);
     border-radius: 50%;
     font-size: 15px;
   
     transition: 0.3s;animation: neon-glow-pink 1.5s ease-in-out infinite;
-  
+  h2{
+    font-size: 22px;
+  }
   }li:hover{
     border-radius:50%;
     background-color: #fe00f1;

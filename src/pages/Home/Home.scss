@@ -47,7 +47,8 @@
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 54px;
+  font-family: 'Black Ops One';
 }
 
 
@@ -67,7 +68,20 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
+.intro{
+  display: flex;
+  width: 80%;
+ 
+  flex-direction: row-reverse;
+  margin-left: 25%;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+h4{
+  font-family: 'Black Ops One';
+  font-size: 24px;
+}
 .menu-wrapper {
   position: fixed;
   top: 50%;
@@ -108,54 +122,53 @@ h1 {
     }
 }
 }
-
-.menu-wrapper.active {
-  opacity: 1;
-  pointer-events: auto;
+strong{
+  font-size: 24px;
+  
+  border: #c300ff solid 1px;
+  padding: 10px;
+}
+.projets{
+margin-bottom: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
 }
 
-.menu-wrapper ul {
+ ul {
 
-  margin-top: 14%;
+  margin-top: 10%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-right: 10%;
-  width: 136%;
+ margin-left: auto;
+ margin-right: auto;
+ 
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .toggle {
-   
-margin-right: 20%;
-    margin-bottom: 50px;
-  }
 
-  .menu-wrapper ul {
-    display: flex;
-   
-    margin-top: -70%;
-    flex-direction: row;
-    justify-content: center;
-
-  }
- 
-
+.about-me{
+  margin-right: 5%;
 }
-
 .About {
+ 
+  width: 60%;
   position: relative;
-  margin-top: 15%;
-  margin-left: 60%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
   padding: 20px;
   border-radius: 55px;
   overflow: hidden;
   border: 0.35rem solid;
   transition: 0.3s;
-
+.arcticle{
+  padding: 10px;
+}
   &::before {
     content: "";
     position: absolute;
@@ -173,21 +186,13 @@ margin-right: 20%;
   animation: borderRadial var(--d) linear infinite forwards;
  
 
-&:hover{
-position: relative;
-    transform: scale(2);
-    transition: ease-in-out;
- margin-bottom: auto;
- margin-top: auto;
- margin-left: auto;
- margin-right: auto;
- background-color: #333;
-    z-index: 1;
-    
-   
-}
+
   
 } 
+article{
+  width: 80%;
+  padding: 40px;
+}
 @media screen and (max-width:768px){
   .about{
     display: flex;
@@ -210,8 +215,14 @@ position: relative;
   width: 200px;
 }
 
-
-
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @keyframes borderRotate {
   100% {
     --angle: 420deg;
