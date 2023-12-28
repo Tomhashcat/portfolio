@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "../../Card/Card";
 import ButtonMenu from "../../components/ButtonMenu/ButtonMenu";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import imgHome from "../../assets/img/home.png";
 import imgLogin from "../../assets/img/login.png";
 import imgUser from "../../assets/img/user.png";
@@ -14,6 +15,8 @@ function BankPage() {
         {" "}
         <ButtonMenu  title="Argent Bank" />
       </a>
+      <a href="https://github.com/Tomhashcat/ArgentBank-website"><FontAwesomeIcon className="icones" icon={faGithub}/></a>
+    
      <strong    className="Strong"><h3>Développement du front-end d'une application banquaire :</h3></strong> 
       <Card src={imgHome} />
       <article>
