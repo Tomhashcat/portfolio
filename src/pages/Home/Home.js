@@ -40,7 +40,7 @@ function Home() {
         </section>
 
         <div className="projets">
-          <h4>Projets :</h4>
+          <h4 className="titleProjets">Projets :</h4>
           <ul>
             <a href="#argentBank">
               <ButtonMenu title="Argent Bank" />

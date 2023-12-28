@@ -78,6 +78,11 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+.intro{
+  flex-direction: row;
+}
+}
 h4{
   font-family: 'Black Ops One';
   font-size: 24px;
@@ -150,6 +155,13 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .projets{
+    position: absolute;
+    flex-direction: column;
+  }
+ 
+}
 
  ul {
 
@@ -163,10 +175,25 @@ text-align: center;
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+
+  ul{
+    flex-direction: column;
+    padding:20px;
+    margin-left: -50px;
+    margin-top: 106px;
+  }
+}
 
 
 .about-me{
-  margin-right: 5%;
+  margin-right: 26%;
+}
+@media screen and (max-width: 768px) {
+  .about-me{
+    margin-right: 0;
+  }
+  
 }
 .About {
  
@@ -204,22 +231,22 @@ text-align: center;
 
   
 } 
+@media screen and (max-width:768px){
+
+  .About{
+    width: 50%;
+  }
+  
+
+}
 article{
   width: 80%;
   padding: 40px;
 }
 @media screen and (max-width:768px){
-  .about{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 146%;
-    .About{
-  margin-left: auto;
-  position: absolute;
 
-}
-  }
+  
+  
 
 }
 
@@ -307,7 +334,17 @@ article{
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+@media screen and (max-width:768px){
+.titleProjets{
+display: flex;
+position: absolute;
+width: 159px;
+top: 10px;
+}
+  
+  
 
+}
 
 .Animated-Radial-Menu .menu {
   position: relative;
