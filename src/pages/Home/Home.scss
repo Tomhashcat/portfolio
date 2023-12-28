@@ -83,6 +83,12 @@ h1 {
   flex-direction: row;
 }
 }
+@media screen and (max-width:320px){
+  .intro{
+    flex-direction: column;
+  }
+ 
+}
 h4{
   font-family: 'Black Ops One';
   font-size: 24px;
@@ -162,6 +168,13 @@ text-align: center;
   }
  
 }
+@media screen and (max-width:320px){
+
+.projets{
+  top:410px;
+  flex-direction: row;
+}
+}
 
  ul {
 
@@ -184,6 +197,14 @@ text-align: center;
     margin-top: 106px;
   }
 }
+@media screen and (max-width:320px){
+
+  ul{
+   
+    flex-direction: row;
+    margin-left:-76px;
+  }
+  }
 
 
 .about-me{
@@ -239,6 +260,15 @@ text-align: center;
   
 
 }
+@media screen and (max-width:320px){
+
+  .About{
+   
+    width:100%;
+    left:-36px;
+top:236px;
+  }
+  }
 article{
   width: 80%;
   padding: 40px;
@@ -340,7 +370,15 @@ display: flex;
 position: absolute;
 width: 159px;
 top: 10px;
-}
+}}
+@media screen and (max-width:320px){
+  .titleProjets{
+    display: flex;
+    position: absolute;
+    width: 159px;
+    top: -8px;
+    left: 3%;
+  }
   
   
 
