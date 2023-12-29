@@ -6,13 +6,13 @@ function ButtonMenu({ to, title , onClick}) {
 
   return (
     <>
-      <li style={{ "--i": 0, "--clr": " #fe00f1" }}>
+      <div  className=" buttonMenu"style={{ "--i": 0, "--clr": " #fe00f1" }}>
         
-          <ion-icon name="beer-outline">
+        
             <h2>{title}</h2>
-          </ion-icon>
+         
         
-      </li>
+      </div>
     </>
   );
 }

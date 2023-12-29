@@ -17,6 +17,15 @@
     transform: translateZ(0);
     animation: neon-border 1.5s ease-in-out infinite alternate;
   }
+  @media screen and (max-width:320px){
+    .card{
+      height:173px;
+      width: 100%;
+    }
+    
+    
+  
+  }
   
   .card__img {
     width: 100%; max-width: 100%; 
