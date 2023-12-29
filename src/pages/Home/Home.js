@@ -25,7 +25,7 @@ function Home() {
         />
         <meta
           property="og:image"
-          content="https://your-website-url.com/og-image.jpg"
+          content="https://portfolio-v6gf.vercel.app/"
         />
         <meta property="og:url" content="https://your-website-url.com" />
     
