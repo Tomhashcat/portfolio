@@ -15,10 +15,10 @@ function Home() {
       <h2>Personal portfolio for web developper</h2>
       <h3>Modern and créative</h3>
       <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
-        <FontAwesomeIcon className="icones" icon={faLinkedin} />
+        <FontAwesomeIcon className="icones" alt='icone linkedin' icon={faLinkedin} />
       </a>
       <a href="https://github.com/Tomhashcat?tab=repositories">
-        <FontAwesomeIcon className="icones" icon={faGithub} />
+        <FontAwesomeIcon className="icones" icon={faGithub} alt='icon github'/>
       </a>
       <SeparationBarre />
 
@@ -42,12 +42,12 @@ function Home() {
         <div className="projets">
           <h4 className="titleProjets">Projets :</h4>
           <ul>
-            <a href="#argentBank">
+            <li href="#argentBank">
               <ButtonMenu title="Argent Bank" />
-            </a>
-            <a href="#77Events">
+            </li>
+            <li href="#77Events">
               <ButtonMenu title="77Events" />
-            </a>
+            </li>
           </ul>
         </div>
       </div>

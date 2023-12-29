@@ -14,9 +14,9 @@ function EventsPage() {
 
         <>
             <a href="/*" id="77Events">  <ButtonMenu title="77Events" /></a>
-            <a href="https://github.com/Tomhashcat/Debuggez-une-application-React.JS-main"><FontAwesomeIcon className="icones" icon={faGithub}/></a>
+            <a href="https://github.com/Tomhashcat/Debuggez-une-application-React.JS-main"><FontAwesomeIcon className="icones" alt="icon github" icon={faGithub}/></a>
      
-            <Card src={imgSlider} />
+            <Card src={imgSlider} alt='image slider' />
             <article  >
             <strong> Gestion du slider : </strong><br /> <br />
                 Mon rôle consistait à débugger un slider et à restaurer le bon fonctionnement de la pagination associée.
@@ -24,7 +24,7 @@ function EventsPage() {
                 garantissant ainsi une expérience utilisateur fluide et sans accroc.
             </article>
 
-            <Card src={imgForm} />
+            <Card src={imgForm} alt="image formulaire" />
             <article>
             <strong> Login : </strong><br /> <br />
                Ma responsabilité a englobé la validation des données, la détection et le traitement des erreurs, ainsi que la redirection habile vers les réseaux appropriés.

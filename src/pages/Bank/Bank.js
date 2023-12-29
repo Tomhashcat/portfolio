@@ -15,10 +15,10 @@ function BankPage() {
         {" "}
         <ButtonMenu  title="Argent Bank" />
       </a>
-      <a href="https://github.com/Tomhashcat/ArgentBank-website"><FontAwesomeIcon className="icones" icon={faGithub}/></a>
+      <a href="https://github.com/Tomhashcat/ArgentBank-website"><FontAwesomeIcon className="icones" alt='github' icon={faGithub}/></a>
     
      <strong    className="Strong"><h3>Développement du front-end d'une application banquaire :</h3></strong> 
-      <Card src={imgHome} />
+      <Card src={imgHome} alt="acceuil" />
       <article>
         <strong>Optimisation des Performances et Intégration d'API</strong>
         <p>
@@ -48,7 +48,7 @@ function BankPage() {
         </p>
       </article>
 
-      <Card src={imgLogin} />
+      <Card src={imgLogin} alt="login page"/>
       <article>
         <strong>
           Gestion Avancée du Formulaire de Connexion avec Fonction "Se Souvenir
@@ -87,7 +87,7 @@ function BankPage() {
           expérience utilisateur fluide et sécurisée.
         </p>{" "}
       </article>
-      <Card src={imgUser} />
+      <Card src={imgUser} alt="user page" />
       <article>
         <strong>La page utilisateur :</strong>
         <p>
@@ -110,7 +110,7 @@ function BankPage() {
         </p>
       </article>
 
-      <Card src={imgSwagg} />
+      <Card src={imgSwagg} alt="swagger" />
       <article>
         <strong>Création de la documentation : </strong>
         <p>
