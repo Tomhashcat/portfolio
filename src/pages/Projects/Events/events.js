@@ -4,8 +4,8 @@ import ButtonMenu from "../../../components/ButtonMenu/ButtonMenu";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import imgSlider from "../../../assets/img/slider.png";
-import imgForm from "../../../assets/img/form.png";
+import imgSlider from "../../../assets/img/slider.webp";
+import imgForm from "../../../assets/img/form.webp";
 function EventsPage() {
 
 
@@ -14,7 +14,7 @@ function EventsPage() {
 
         <>
             <a href="/*" id="77Events">  <ButtonMenu title="77Events" /></a>
-            <a href="https://github.com/Tomhashcat/Debuggez-une-application-React.JS-main"><FontAwesomeIcon className="icones" alt="icon github" icon={faGithub}/></a>
+            <a href="https://github.com/Tomhashcat/Debuggez-une-application-React.JS-main" aria-label="GitHub Profile"><FontAwesomeIcon className="icones" alt="icon github" icon={faGithub}/></a>
      
             <Card src={imgSlider} alt='image slider' />
             <article  >

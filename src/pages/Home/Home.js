@@ -14,10 +14,10 @@ function Home() {
       <h1>Thomas Dutourné</h1>
       <h2>Personal portfolio for web developper</h2>
       <h3>Modern and créative</h3>
-      <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
+      <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" aria-label="LinkedIn Profile">
         <FontAwesomeIcon className="icones" alt='icone linkedin' icon={faLinkedin} />
       </a>
-      <a href="https://github.com/Tomhashcat?tab=repositories">
+      <a href="https://github.com/Tomhashcat?tab=repositories" aria-label="GitHub Profile">
         <FontAwesomeIcon className="icones" icon={faGithub} alt='icon github'/>
       </a>
       <SeparationBarre />
