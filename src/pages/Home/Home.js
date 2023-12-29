@@ -19,7 +19,8 @@ function Home() {
         <meta property="og:description" content="Personal portfolio for web developer. Specialized in ReactJS and JavaScript." />
         <meta property="og:image" content="https://your-website-url.com/og-image.jpg" />
         <meta property="og:url" content="https://your-website-url.com" />
-     
+     <h1>Thomas Dutourné</h1>
+     <h2>Web Developer</h2>
       <h3>Modern and créative</h3>
       <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" aria-label="LinkedIn Profile">
         <FontAwesomeIcon className="icones" alt='icone linkedin' icon={faLinkedin} />
