@@ -12,24 +12,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   return (
     <>
-     
-        <title>Thomas Dutourné - Web Developer</title>
-        <meta
-          name="description"
-          content="Personal portfolio for web developer. Specialized in ReactJS and JavaScript."
-        />
-        <meta property="og:title" content="Thomas Dutourné - Web Developer" />
-        <meta
-          property="og:description"
-          content="Personal portfolio for web developer. Specialized in ReactJS and JavaScript."
-        />
-        <meta
-          property="og:image"
-          content="https://portfolio-v6gf.vercel.app/"
-        />
-        <meta property="og:url" content="https://your-website-url.com" />
-    
-
+          
       <h1>Thomas Dutourné</h1>
       <h2>Web Developer</h2>
       <h3>Modern and créative</h3>
