@@ -8,7 +8,7 @@ import BankPage from "../Bank/Bank";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   return (
     <>
@@ -28,6 +28,9 @@ function Home() {
       <a href="https://github.com/Tomhashcat?tab=repositories" aria-label="GitHub Profile">
         <FontAwesomeIcon className="icones" icon={faGithub} alt='icon github'/>
       </a>
+      <a href="mailto:dutourne.t@gmail.com" aria-label="Email">
+  <FontAwesomeIcon className="icones" icon={faEnvelope} alt="icon gmail" />
+</a>
       <SeparationBarre />
 
       <div className="intro">
