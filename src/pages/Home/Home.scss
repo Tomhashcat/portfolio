@@ -203,7 +203,7 @@ strong {
   }
 }
 
-ul {
+.buttons {
   width: 344px;
   margin-top: 10%;
   display: flex;
@@ -219,7 +219,7 @@ ul {
 
 @media screen and (max-width: 768px) {
 
-  ul {
+  .buttons {
     flex-direction: column;
     padding: 20px;
     margin-left: -50px;
@@ -229,7 +229,7 @@ ul {
 
 @media screen and (max-width:320px) {
 
-  ul {
+  .buttons {
     width: 211px;
     flex-direction: row;
 margin-left: -25px;

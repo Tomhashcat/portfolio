@@ -11,33 +11,30 @@
   }
   
   
-  .buttonMenu{
-    
-    color: #fe00f1;
-  }
-  .buttonMenu:hover{color: #333;}
+ 
+
   .buttonMenu {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+     color: #fe00f1;
     width:162px;
     height: 57px;
     color: var(--clr);
     border: 5px solid var(--clr);
     border-radius: 15%;
     font-size: 15px;
-  
+    text-decoration: none;
     transition: 0.3s;animation: neon-glow-pink 1.5s ease-in-out infinite;
   h2{
     font-size: 22px;
   }
-  }li:hover{
+  }.buttonMenu:hover{
     border-radius:50%;
     background-color: #fe00f1;
     color: #333;
   }
-  li.active  {
+ .buttonMenu.active  {
     transform: rotate(calc(45deg * var(--i))) translateX(0px);
   }/*# sourceMappingURL=Animated-Radial-Menu.css.map */
   @keyframes neon-glow-pink {

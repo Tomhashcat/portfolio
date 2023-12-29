@@ -41,14 +41,14 @@ function Home() {
 
         <div className="projets">
           <h4 className="titleProjets">Projets :</h4>
-          <ul>
-            <li href="#argentBank">
+          <div className="buttons">
+            <a href="#argentBank">
               <ButtonMenu title="Argent Bank" />
-            </li>
-            <li href="#77Events">
+            </a>
+            <a href="#77Events">
               <ButtonMenu title="77Events" />
-            </li>
-          </ul>
+            </a>
+          </div>
         </div>
       </div>
 
