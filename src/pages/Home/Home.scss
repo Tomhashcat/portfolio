@@ -183,15 +183,15 @@ strong {
   align-items: center;
   text-align: center;
   top: 6%;
-  left: 18%;
+  left: 23%;
 }
 
 @media screen and (max-width: 768px) {
   .projets {
     position: absolute;
     flex-direction: column;
-    top:8%;
-    left:24%
+    margin-top:207px;
+   
   }
 
 }
@@ -199,9 +199,9 @@ strong {
 @media screen and (max-width:320px) {
 
   .projets {
-    top: 400px;
+    top:172px;
     flex-direction: row;
-    left: 84px;
+    margin-left: -8%;
   }
 }
 
@@ -296,7 +296,7 @@ margin-left: -25px;
   .About {
     width: 50%;
 margin-top: 4%;
-margin-bottom: 15%;
+margin-bottom: 20%;
   }
 
 
@@ -306,8 +306,8 @@ margin-bottom: 15%;
 
   .About {
     width: 51%;
-    left: -3%;
-    top: 236px;
+   
+    top: 200px;
     margin-bottom: 57%;
   }
 }
