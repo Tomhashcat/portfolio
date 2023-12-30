@@ -6,6 +6,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import imgSlider from "../../../assets/img/slider.webp";
 import imgForm from "../../../assets/img/form.webp";
+
 function EventsPage() {
 
 

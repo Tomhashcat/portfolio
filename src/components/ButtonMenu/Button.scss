@@ -1,11 +1,11 @@
- 
+
   .Animated-Radial-Menu .menu li {
     position: absolute;
     left: 99px;
     list-style: none;
     transition: 0.3s;
     transition-delay: calc(0.04s * var(5));
-    transform: rotate(0deg) translateX(110px);
+    transform: rotate(0) translateX(110px);
     transform-origin:200px;
    
   }
@@ -20,8 +20,8 @@
      color: #fe00f1;
     width:162px;
     height: 57px;
-    color: var(--clr);
-    border: 5px solid var(--clr);
+   
+    border: 5px solid ;
     border-radius: 15%;
     font-size: 15px;
     text-decoration: none;
@@ -34,9 +34,7 @@
     background-color: #fe00f1;
     color: #333;
   }
- .buttonMenu.active  {
-    transform: rotate(calc(45deg * var(--i))) translateX(0px);
-  }/*# sourceMappingURL=Animated-Radial-Menu.css.map */
+
   @keyframes neon-glow-pink {
     0%, 100% {
       box-shadow: 0 0 10px #fe00f1, 0 0 20px #fe00f1, 0 0 30px #fe00f1;
@@ -45,14 +43,12 @@
       box-shadow: 0 0 20px #fe00f1, 0 0 30px #fe00f1, 0 0 40px #fe00f1;
     }
   }
-  .Animated-Radial-Menu .menu.active li {
-    transform: rotate(calc(45deg * var(--i))) translateX(0); 
-  }
+
   
   .Animated-Radial-Menu .menu li a:hover {
-    background: var(--clr);
+   
     color: #333;
-    box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 50px var(--clr);
+   
   }
   .Animated-Radial-Menu .menu.active .toggle {
     transform: rotate(315deg);
@@ -66,5 +62,5 @@
   .menu-wrapper.active li {
     opacity: 1;
   color: #333 ;
-    transform: translateY(0) rotate(calc(45deg * var(--i)));
+   
   }
